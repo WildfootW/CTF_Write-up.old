@@ -18,3 +18,4 @@ hex_string = hex_string[2:]
 print(hex_string)
 print(binascii.unhexlify(hex_string))
 print(bytes.fromhex(hex_string).decode('utf-8'))
+
