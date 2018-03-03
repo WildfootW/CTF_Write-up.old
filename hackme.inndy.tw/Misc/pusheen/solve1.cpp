@@ -1,3 +1,4 @@
+//pipe in pusheen.txt to generate pusheen_decode
 #include <iostream>
 
 using namespace std;
