@@ -1,4 +1,4 @@
-# write up
+# toooomuch-2
 1. buffer overflow
 2. strcpy@plt will cp the input to passcode<0x8049c60>
 3. x86 pass the argument in stack
