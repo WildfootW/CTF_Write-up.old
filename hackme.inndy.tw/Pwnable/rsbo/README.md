@@ -1,4 +1,6 @@
 
+
+## normal calling ORW function
 ```
  ► 0x80485a2 <init+21>    call   open@plt <0x8048420>
         file: 0x80487d0 ◂— '/home/ctf/flag'
