@@ -26,6 +26,9 @@ write(fd_stdout, my_buffer, flag_size)
         n: 0x3
 ```
 
+## shuffle
+前面的padding全部壓\x00 就有機會把for迴圈的上線也換成0
+
 # rsbo 2
 mov rbp to buffer_0
 read to buffer_0
