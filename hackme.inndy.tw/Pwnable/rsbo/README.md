@@ -1,4 +1,10 @@
+# rsbo
 
+open(flag_path, 0x0)
+start_0
+read(file_descript, my_buffer, flag_size)
+start_0
+write(fd_stdout, my_buffer, flag_size)
 
 ## normal calling ORW function
 ```
@@ -19,4 +25,18 @@
         buf: 0xffffccf0 ◂— 0x410a41 /* 'A\nA' */
         n: 0x3
 ```
+
+# rsbo 2
+mov rbp to buffer_0
+read to buffer_0
+mov rsp to buffer_0
+
+mov rbp to buffer_1
+write write_libc
+read to buffer_1
+mov rsp to buffer_1
+
+mov rbp to buffer_0
+call system
+...
 

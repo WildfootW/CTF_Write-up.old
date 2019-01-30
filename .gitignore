@@ -2,6 +2,8 @@
 peda-session*.txt
 *.swp
 my_pwn_tools.py
+core
+ropgadget
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
